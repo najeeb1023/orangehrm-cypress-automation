@@ -5,10 +5,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Install Cypress
-        run: echo "npm install cypress typescript"
+        run: echo "npx install cypress typescript"
         
   run-tests:
           runs-on: ubuntu-latest
           steps:
             - name: Run Tests
-              run: echo "npm test"
+              run: echo "npx test"
