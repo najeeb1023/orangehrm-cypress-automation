@@ -17,6 +17,7 @@ describe('template spec', () => {
   it('Go To Admin', () => {
     landingPage.goToAdmin()
     adminPage.getDataFromAdminTable()
+    console.log('Test')
 
   })
 
