@@ -8,6 +8,7 @@ export class AdminPage {
     getDataFromAdminTable() {
         this.adminLocators.adminPageUserTable().contains('David.Morris')
         this.adminLocators.adminPageUserTable().contains('Ehioze.Ebo').click()
+        this.adminLocators.adminPageUserTable().contains('Ehioze.Ebo').click()
     }
 
 }
