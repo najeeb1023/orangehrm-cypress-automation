@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Install Cypress
-        run: echo "npm install -g npm"
+        run: echo "npx install -g npm"
         
   run-tests:
           runs-on: ubuntu-latest
