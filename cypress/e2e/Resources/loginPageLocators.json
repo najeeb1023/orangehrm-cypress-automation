@@ -1,0 +1,17 @@
+{
+    "name": "Login Page",
+    "webElements": [
+        {
+            "elementName": "loginField",
+            "selectorValue": "//input[contains(@name,'username')]"
+        },
+        {
+            "elementName": "passwordField",
+            "selectorValue": "//input[contains(@name,'password')]"
+        },
+        {
+            "elementName": "loginButton",
+            "selectorValue": "//button[@type='submit']"
+        }
+    ]
+}

@@ -1,10 +1,12 @@
 import { LoginPage } from "./Authentication/LoginPage"
-import { LandingPage } from "./LandingPage"
+import { AdminPage } from "./Authentication/Pages/AdminPage"
+import { LandingPage } from "./Authentication/Pages/LandingPage"
 
 describe('template spec', () => {
 
   let loginUser = new LoginPage()
   let landingPage = new LandingPage()
+  let adminPage = new AdminPage()
 
   beforeEach(() => {
     loginUser.visitWeb()
@@ -14,6 +16,8 @@ describe('template spec', () => {
   
   it('Go To Admin', () => {
     landingPage.goToAdmin()
+    adminPage.getDataFromAdminTable()
+
   })
 
 })
