@@ -2,7 +2,7 @@ export class LandingPage {
     
 
     landingPageLocators = {
-        adminBtn:() => cy.get('body').contains('Admin')
+        adminBtn:() => cy.get('body').contains('admin')
     }
 
     goToAdmin() {
